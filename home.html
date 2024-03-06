@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+<style>
+   a{
+      text-decoration: none;
+      
+   }
+.imgHoverr {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .imgHoverr:hover {
+            transform: scale(1.1); /* Adjust the scale factor as desired for zoom level */
+        }
+    /* carousel */
+            
+    .carousel {
+          width: 400px; /* Increased image width */
+          overflow: hidden;
+          position: relative;
+          background-color: #f9f9f9; /* Light background color */
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect */
+        }
+        
+        .carousel-inner {
+          display: flex;
+          width: calc(400px * 3); /* Adjusted width to fit all images */
+          transition: transform 0.5s ease-in-out;
+        }
+        
+        .carousel-inner img {
+          width: 400px; /* Increased image width */
+          height: auto;
+          object-fit: cover;
+        }
+        
+        /* carousel */
+</style>
+</head>
+
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
+
+         <ul>
+            <li><a href="postproperty.html">post property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="listings.html">View Property</i></a>
+               </li>
+               
+               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">about us</a></i></li>
+                     <li><a href="contact.html">contact us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="search.html">search property <i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="register.html">register</a></li>
+                  <li><a href="login.html">logout</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="bgIMG">
+   <img src="images/logo/backgroundImg.jpg" alt="" style="width: 100%;
+   height: auto;">
+</div>
+
+
+
+<br>
+<div class="content_box" style="margin:20px;display:flex;margin-left: 60px;justify-content:center;">
+   <img class="imgHoverr" src="images/HouseImage/house1.jpeg" alt="house" style="height: 350px;width:auto;border-radius:4px;"> 
+   <div class="text_box1" style="margin-left:30px;display: flex;flex-direction: column;justify-content: center;">
+   <p style="color: grey;">BUY A HOME</p><br>
+   <h1>Find, Buy & Own Your Dream Home</h1><br>
+
+   <p style="font-size:  20px;">Explore from Apartments, lands, builder </p> <p style="font-size:  20px;">floors, villas and more...</p>
+       <center><br>  
+           <button class="bttn" style="background-color:#0E6BA8;height:40px;width:max-content;font-size:20px;align-text:center;padding:5px;color:white;border:0px;border-radius:5px;">
+           <a href="listings.html" style="color: #f9f9f9;">BUY HOME</a></button></center>
+   </div>
+
+</div>
+<br>
+<!-- content box 2 -->
+<div class="content_box" style="margin:20px;display:flex;margin-left: 30px;justify-content:center;">
+    
+   <div class="text_box1" style="margin-right:15px;display: flex;flex-direction: column;justify-content: center;">
+   <p style="color: grey;">RENT HOME</p><br>
+   <h1> Rent & Make Your Own Dream Home</h1><br>
+
+   <p style="font-size:  20px;">Explore from Apartments, builder </p> <p style="font-size:  20px;">floors, villas and more...</p>
+       <center><br>  
+           <button class="bttn" style="background-color:#0E6BA8;height:40px;width:max-content;font-size:20px;align-text:center;padding:5px;color:white;border:0px;border-radius:5px;">
+           <a href="listings.html" style="color: #f9f9f9;">RENT HOME</a></button></center>
+   </div>
+   <img class="imgHoverr" src="images/HouseImage/house3.avif" alt="house" style="height: 300px;width:auto;border-radius:4px;margin-left:20px;">
+
+</div>
+<!-- content home page -->
+
+<section class="services">
+
+   <h1 class="heading">Our Services</h1>
+
+   <div class="box-container">
+
+      <div class="box imgHoverr">
+         <img src="images/icon-3.png" alt="Sell House Icon">
+         <h3>Sell House</h3>
+         <p>Sell your property effortlessly with our dedicated selling services. We assist you through the entire selling process for a smooth transaction.</p>
+      </div>
+
+
+      <div class="box imgHoverr">
+         <img src="images/icon-4.png" alt="Flats and Buildings Icon">
+         <h3>Flats and Buildings</h3>
+         <p>Explore a diverse range of flats and buildings for sale. Our listings include various options to meet your residential or investment needs.</p>
+      </div>
+
+      <div class="box imgHoverr">
+         <img src="images/icon-6.png" alt="24/7 Service Icon">
+         <h3>24/7 Service</h3>
+         <p>Our team is dedicated to providing round-the-clock service. We are here to assist you at any time, ensuring a seamless experience.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- footer section starts  -->
+
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i><span>123456789</span></a>
+         <a href="tel:1112223333"><i class="fas fa-phone"></i><span>1112223333</span></a>
+         <a href="mailto:shadowgamer8287@gmail.com"><i class="fas fa-envelope"></i><span>sky_line_surge@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Delhi, India - 110085</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>home</span></a>
+         <a href="about.html"><span>about</span></a>
+         <a href="contact.html"><span>contact</span></a>
+         <a href="listings.html"><span>all listings</span></a>
+      </div>
+
+      <div class="box">
+         <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+         <a href="#"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; 2023 SkyLineSurge. All rights reserved.</span> | all rights reserved!</div>
+
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+   const carouselInner = document.querySelector('.carousel-inner');
+  const images = carouselInner.querySelectorAll('img');
+  let currentIndex = 0;
+  let intervalId;
+  
+  function updateCarousel() {
+  const offset = currentIndex * -400; // Updated image width
+  carouselInner.style.transform = `translateX(${offset}px)`;
+  }
+  
+  function nextSlide() {
+  currentIndex = (currentIndex + 1) % images.length;
+  updateCarousel();
+  }
+  
+  function previousSlide() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  updateCarousel();
+  }
+  
+  function startAutoSlide() {
+  intervalId = setInterval(nextSlide, 3000);
+  }
+  
+  function stopAutoSlide() {
+  clearInterval(intervalId);
+  }
+  
+  startAutoSlide();
+  
+  const prevButton = document.getElementById('prev-button');
+  const nextButton = document.getElementById('next-button');
+  
+  prevButton.addEventListener('click', () => {
+  previousSlide();
+  stopAutoSlide();
+  startAutoSlide();
+  });
+  
+  nextButton.addEventListener('click', () => {
+  nextSlide();
+  stopAutoSlide();
+  startAutoSlide();
+  });
+  
+  
+  </script>
+</body>
+</html>
+
